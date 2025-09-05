@@ -1,0 +1,104 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2E8F0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F1F5F9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGradient)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Sque Logo in header -->
+  <rect x="20" y="15" width="30" height="30" rx="8" fill="url(#blueGradient)"/>
+  <text x="35" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">S</text>
+  <text x="60" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">Sque AI Platform</text>
+  
+  <!-- Navigation -->
+  <text x="250" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6B7280">Dashboard</text>
+  <text x="320" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6B7280">Models</text>
+  <text x="370" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6B7280">Analytics</text>
+  <text x="430" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6B7280">Datasets</text>
+  
+  <!-- User avatar -->
+  <circle cx="750" cy="30" r="15" fill="url(#blueGradient)"/>
+  <text x="750" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">JD</text>
+  
+  <!-- Main Dashboard -->
+  <rect x="20" y="80" width="760" height="400" rx="12" fill="url(#cardGradient)" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="40" y="110" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1F2937">AI Model Performance Dashboard</text>
+  <text x="40" y="130" font-family="Arial, sans-serif" font-size="14" fill="#6B7280">Real-time insights from your deep learning models</text>
+  
+  <!-- Stats Cards -->
+  <rect x="40" y="150" width="160" height="80" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="50" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280">MODEL ACCURACY</text>
+  <text x="50" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#10B981">94.2%</text>
+  <text x="50" y="215" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">↗ +2.1% from last week</text>
+  
+  <rect x="220" y="150" width="160" height="80" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="230" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280">INFERENCE TIME</text>
+  <text x="230" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#3B82F6">87ms</text>
+  <text x="230" y="215" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">↗ 15% improvement</text>
+  
+  <rect x="400" y="150" width="160" height="80" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="410" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280">ACTIVE MODELS</text>
+  <text x="410" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#8B5CF6">12</text>
+  <text x="410" y="215" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">3 deployed today</text>
+  
+  <rect x="580" y="150" width="160" height="80" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="590" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280">PREDICTIONS/DAY</text>
+  <text x="590" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#F59E0B">2.4M</text>
+  <text x="590" y="215" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Peak: 3.1M</text>
+  
+  <!-- Chart Area -->
+  <rect x="40" y="250" width="500" height="200" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="50" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1F2937">Model Performance Over Time</text>
+  
+  <!-- Mock Chart Lines -->
+  <polyline points="60,420 120,400 180,380 240,370 300,360 360,350 420,345 480,340 520,335" 
+            fill="none" stroke="#3B82F6" stroke-width="3"/>
+  <polyline points="60,430 120,425 180,415 240,410 300,405 360,400 420,395 480,390 520,385" 
+            fill="none" stroke="#10B981" stroke-width="3"/>
+  
+  <!-- Chart Legend -->
+  <circle cx="60" cy="300" r="4" fill="#3B82F6"/>
+  <text x="75" y="305" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Accuracy</text>
+  <circle cx="140" cy="300" r="4" fill="#10B981"/>
+  <text x="155" y="305" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Speed</text>
+  
+  <!-- Recent Models Panel -->
+  <rect x="560" y="250" width="180" height="200" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="570" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1F2937">Recent Models</text>
+  
+  <!-- Model Items -->
+  <rect x="570" y="290" width="160" height="30" rx="4" fill="#F8FAFC"/>
+  <circle cx="580" cy="305" r="5" fill="#10B981"/>
+  <text x="595" y="300" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#1F2937">Vision Model v2.1</text>
+  <text x="595" y="312" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Object Detection</text>
+  
+  <rect x="570" y="330" width="160" height="30" rx="4" fill="#F8FAFC"/>
+  <circle cx="580" cy="345" r="5" fill="#3B82F6"/>
+  <text x="595" y="340" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#1F2937">NLP Sentiment v1.8</text>
+  <text x="595" y="352" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Text Analysis</text>
+  
+  <rect x="570" y="370" width="160" height="30" rx="4" fill="#F8FAFC"/>
+  <circle cx="580" cy="385" r="5" fill="#F59E0B"/>
+  <text x="595" y="380" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#1F2937">Recommendation AI</text>
+  <text x="595" y="392" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Collaborative Filtering</text>
+  
+  <!-- Footer -->
+  <text x="40" y="470" font-family="Arial, sans-serif" font-size="10" fill="#9CA3AF">Powered by Sque Tech AI Platform • Last updated: 2 minutes ago</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1F2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4B5563;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo Icon -->
+  <rect x="2" y="8" width="24" height="24" rx="6" fill="url(#logoGradient)" />
+  
+  <!-- S Letter -->
+  <path d="M8.5 14.5C8.5 13.1193 9.61929 12 11 12H15C16.3807 12 17.5 13.1193 17.5 14.5C17.5 15.8807 16.3807 17 15 17H13C11.6193 17 10.5 18.1193 10.5 19.5C10.5 20.8807 11.6193 22 13 22H17C18.3807 22 19.5 20.8807 19.5 19.5" 
+        stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+  
+  <!-- Circuit pattern overlay -->
+  <circle cx="21" cy="12" r="1" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="7" cy="28" r="1" fill="rgba(255,255,255,0.3)"/>
+  <line x1="21" y1="12" x2="19" y2="14" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
+  <line x1="7" y1="28" x2="9" y2="26" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
+  
+  <!-- Company Text -->
+  <text x="32" y="18" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="url(#textGradient)">Sque</text>
+  <text x="32" y="30" font-family="Arial, sans-serif" font-size="8" font-weight="500" fill="#6B7280">TECH</text>
+  
+  <!-- Tagline -->
+  <text x="70" y="16" font-family="Arial, sans-serif" font-size="7" font-weight="400" fill="#9CA3AF">Deep Learning</text>
+  <text x="70" y="26" font-family="Arial, sans-serif" font-size="7" font-weight="400" fill="#9CA3AF">&amp; SaaS Solutions</text>
+</svg>
