@@ -4,27 +4,39 @@ import Link from 'next/link'
 
 const footerLinks = {
   Product: [
-    { name: 'Features', href: '#features' },
+    { name: 'Features', href: '/features' },
     { name: 'Pricing', href: '#pricing' },
-    { name: 'Documentation', href: '#' },
-    { name: 'API Reference', href: '#' },
+    { name: 'Integrations', href: '#' },
+    { name: 'API', href: '#' },
+    { name: 'Mobile Apps', href: '#' },
   ],
-  Company: [
-    { name: 'About', href: '#about' },
-    { name: 'Blog', href: '#' },
-    { name: 'Careers', href: '#' },
-    { name: 'Contact', href: '#contact' },
+  Resources: [
+    { name: 'Resource Center', href: '/resources' },
+    { name: 'Legal Guides', href: '#' },
+    { name: 'Webinars', href: '#' },
+    { name: 'Templates', href: '#' },
+    { name: 'ROI Calculator', href: '#' },
   ],
   Support: [
     { name: 'Help Center', href: '#' },
-    { name: 'Community', href: '#' },
-    { name: 'Status', href: '#' },
+    { name: 'Contact Support', href: '/contact' },
+    { name: 'Training', href: '#' },
+    { name: 'System Status', href: '#' },
     { name: 'Security', href: '#' },
   ],
+  Company: [
+    { name: 'About Us', href: '#' },
+    { name: 'Careers', href: '#' },
+    { name: 'Press', href: '#' },
+    { name: 'Partners', href: '#' },
+    { name: 'Blog', href: '#' },
+  ],
   Legal: [
-    { name: 'Privacy Policy', href: '#' },
-    { name: 'Terms of Service', href: '#' },
-    { name: 'Cookie Policy', href: '#' },
+    { name: 'Privacy Policy', href: '/privacy' },
+    { name: 'Terms of Service', href: '/terms' },
+    { name: 'Cookie Policy', href: '/cookies' },
+    { name: 'GDPR Compliance', href: '#' },
+    { name: 'Security Policy', href: '#' },
   ],
 }
 
@@ -41,7 +53,7 @@ export function Footer() {
               <span className="text-xl font-bold">Sque</span>
             </Link>
             <p className="text-gray-400 text-sm max-w-xs">
-              Empowering developers to build exceptional digital experiences with speed and reliability.
+              Legal Revenue & Operating System helping law firms capture, track, and collect every billable hour.
             </p>
           </div>
           

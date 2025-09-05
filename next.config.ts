@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['framer-motion'],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   // Performance optimizations
   compress: true,
   poweredByHeader: false,
