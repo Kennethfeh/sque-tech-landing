@@ -6,38 +6,47 @@ const features = [
   {
     icon: (
       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: 'Deep Learning AI',
-    description: 'Harness computer vision, natural language processing, and intelligent chatbots to automate processes and enhance decision-making.',
+    title: 'Automatic Time Capture',
+    description: 'Sque automatically tracks and captures your billable work across all applications and platforms. Never lose time again.',
   },
   {
     icon: (
       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
       </svg>
     ),
-    title: 'SaaS Development',
-    description: 'Create interactive, responsive SaaS applications with cutting-edge technologies, ensuring seamless cross-platform compatibility.',
+    title: 'Proof Bundle Creation',
+    description: 'Generate comprehensive downloadable proof bundles with screenshots, documents, and time logs for every billable entry.',
   },
   {
     icon: (
       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
       </svg>
     ),
-    title: 'Mobile Apps',
-    description: 'Develop feature-rich, engaging iOS and Android apps with seamless user experience and optimized performance.',
+    title: 'Smart Billing System',
+    description: 'Seamlessly convert tracked time into professional invoices with automated approval workflows and payment tracking.',
   },
   {
     icon: (
       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
       </svg>
     ),
-    title: 'UI/UX Design',
-    description: 'Craft visually stunning, user-centric interfaces with talented designers, optimizing usability and accessibility.',
+    title: 'Revenue Analytics',
+    description: 'Track performance with detailed analytics on billable hours, collection rates, and revenue trends across clients and matters.',
+  },
+  {
+    icon: (
+      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+      </svg>
+    ),
+    title: 'Secure & Compliant',
+    description: 'Bank-level security with end-to-end encryption. Fully compliant with legal industry regulations and client confidentiality requirements.',
   },
   {
     icon: (
@@ -45,17 +54,8 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    title: 'Rapid Deployment',
-    description: 'From concept to production in record time. Our streamlined development process ensures fast time-to-market.',
-  },
-  {
-    icon: (
-      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-      </svg>
-    ),
-    title: 'Expert Team',
-    description: 'Work with skilled developers who have experience at renowned companies like HSBC and cutting-edge startups.',
+    title: 'Fast Collection',
+    description: 'Accelerate payment collection with automated invoice delivery, payment reminders, and integrated payment processing.',
   },
 ]
 
@@ -65,10 +65,10 @@ export function FeaturesGrid() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Comprehensive Technology Solutions
+            Everything you need to maximize legal revenue
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            From AI-powered platforms to mobile applications, Sque Tech delivers cutting-edge solutions that transform your business operations and user experiences.
+            Sque automatically captures billable work, creates proof bundles, and streamlines your entire billing process from time tracking to collection.
           </p>
         </div>
         

@@ -5,46 +5,46 @@ import { formatPrice } from '@/lib/utils'
 
 const plans = [
   {
-    name: 'Consultation',
-    description: 'Discovery & strategy session',
+    name: 'Free Trial',
+    description: 'Try Sque for 30 days',
     price: 0,
     features: [
-      '1-hour strategy call',
-      'Project scoping',
-      'Technology recommendations',
-      'Development roadmap',
+      'Up to 20 billable hours',
+      'Basic time tracking',
+      'Email support',
+      'Standard proof bundles',
     ],
-    buttonText: 'Book consultation',
+    buttonText: 'Start Free Trial',
     popular: false,
   },
   {
-    name: 'Development',
-    description: 'Full-stack development package',
-    price: 5000,
+    name: 'Professional',
+    description: 'For solo practitioners & small firms',
+    price: 99,
     features: [
-      'Custom SaaS development',
-      'Mobile app development',
-      'AI/ML integration',
-      '3 months support',
-      'Cloud deployment',
-      'Performance optimization',
+      'Unlimited time tracking',
+      'Advanced proof bundles',
+      'Custom billing rates',
+      'Revenue analytics',
+      'Client portal access',
+      'Priority support',
     ],
-    buttonText: 'Start project',
+    buttonText: 'Start Professional',
     popular: true,
   },
   {
     name: 'Enterprise',
-    description: 'Complete digital transformation',
-    price: 15000,
+    description: 'For large law firms',
+    price: 299,
     features: [
-      'Everything in Development',
-      'Deep learning solutions',
-      'Custom AI models',
-      '12 months support',
-      'Dedicated team',
-      'Priority support',
+      'Everything in Professional',
+      'Multi-user collaboration',
+      'Advanced security features',
+      'Custom integrations',
+      'Dedicated success manager',
+      'White-label options',
     ],
-    buttonText: 'Contact us',
+    buttonText: 'Contact Sales',
     popular: false,
   },
 ]
@@ -61,10 +61,10 @@ export function Pricing() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Transparent project pricing
+            Simple, transparent pricing
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Start with a free consultation to understand your needs, then choose the development package that fits your project scope.
+            Start with a free 30-day trial. No credit card required. Upgrade anytime to unlock advanced features.
           </p>
         </motion.div>
 
@@ -96,7 +96,7 @@ export function Pricing() {
                   <span className="text-4xl font-bold text-gray-900">
                     {formatPrice(plan.price)}
                   </span>
-                  <span className="text-gray-600">{plan.name === 'Consultation' ? '' : '/project'}</span>
+                  <span className="text-gray-600">{plan.price === 0 ? '' : '/month'}</span>
                 </div>
               </div>
 

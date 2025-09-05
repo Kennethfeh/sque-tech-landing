@@ -14,9 +14,9 @@ export function Hero() {
             transition={{ duration: 0.8 }}
             className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl"
           >
-            Unleash the power of
+            Stop losing
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              {' '}deep learning & SaaS
+              {' '}billable time
             </span>
           </motion.h1>
           
@@ -26,7 +26,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mt-6 text-lg leading-8 text-gray-600 max-w-3xl mx-auto"
           >
-            Sque Tech provides adaptable end-to-end digital solutions, combining deep learning expertise with cutting-edge SaaS development. From AI-powered platforms to mobile apps, we make advanced technology accessible to businesses of all sizes.
+            Sque captures work automatically, provides a downloadable proof bundle, and runs billing as your system of record. Capture work. Approve with proof. Invoice and collect—fast.
           </motion.p>
           
           <motion.div
@@ -39,14 +39,14 @@ export function Hero() {
               href="#pricing"
               className="group relative rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 text-sm font-semibold text-white shadow-lg hover:shadow-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all duration-300 hover:scale-105"
             >
-              <span className="relative z-10">Start your project</span>
+              <span className="relative z-10">Start Free Trial</span>
               <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-blue-700 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </Link>
             <Link
               href="#features"
               className="group text-sm font-semibold leading-6 text-gray-900 hover:text-blue-600 transition-colors duration-300 flex items-center gap-2"
             >
-              Learn more 
+              See how it works 
               <span className="group-hover:translate-x-1 transition-transform duration-300" aria-hidden="true">→</span>
             </Link>
           </motion.div>
@@ -60,7 +60,7 @@ export function Hero() {
         >
           <div className="relative rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl lg:p-4">
             <div className="rounded-lg bg-white shadow-2xl ring-1 ring-gray-900/10 overflow-hidden">
-              <img src="/images/ai-dashboard-demo.svg" alt="Sque Tech AI Platform Dashboard" className="w-full h-auto" />
+              <img src="/images/legal-billing-dashboard.svg" alt="Sque Legal Billing Dashboard" className="w-full h-auto" />
             </div>
           </div>
         </motion.div>

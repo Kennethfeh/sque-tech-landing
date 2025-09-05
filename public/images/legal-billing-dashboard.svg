@@ -1,0 +1,109 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E2E8F0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F1F5F9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGradient)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="60" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Sque Logo in header -->
+  <rect x="20" y="15" width="30" height="30" rx="8" fill="url(#blueGradient)"/>
+  <text x="35" y="35" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">S</text>
+  <text x="60" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1F2937">Sque</text>
+  <text x="95" y="35" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Legal Revenue & Operating System</text>
+  
+  <!-- Navigation -->
+  <text x="300" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6B7280">Time Tracking</text>
+  <text x="380" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6B7280">Billing</text>
+  <text x="420" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6B7280">Reports</text>
+  <text x="470" y="35" font-family="Arial, sans-serif" font-size="14" fill="#6B7280">Clients</text>
+  
+  <!-- User avatar -->
+  <circle cx="750" cy="30" r="15" fill="url(#blueGradient)"/>
+  <text x="750" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">KF</text>
+  
+  <!-- Main Dashboard -->
+  <rect x="20" y="80" width="760" height="400" rx="12" fill="url(#cardGradient)" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Title -->
+  <text x="40" y="110" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1F2937">Billable Time Dashboard</text>
+  <text x="40" y="130" font-family="Arial, sans-serif" font-size="14" fill="#6B7280">Track, approve, and bill your legal work automatically</text>
+  
+  <!-- Stats Cards -->
+  <rect x="40" y="150" width="160" height="80" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="50" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280">TODAY'S BILLABLE</text>
+  <text x="50" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#10B981">8.5 hrs</text>
+  <text x="50" y="215" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">↗ $2,125 revenue</text>
+  
+  <rect x="220" y="150" width="160" height="80" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="230" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280">PENDING APPROVAL</text>
+  <text x="230" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#F59E0B">12</text>
+  <text x="230" y="215" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">entries waiting</text>
+  
+  <rect x="400" y="150" width="160" height="80" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="410" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280">INVOICED THIS MONTH</text>
+  <text x="410" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#3B82F6">$18.2K</text>
+  <text x="410" y="215" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">+15% from last month</text>
+  
+  <rect x="580" y="150" width="160" height="80" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="590" y="170" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#6B7280">COLLECTION RATE</text>
+  <text x="590" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#8B5CF6">94%</text>
+  <text x="590" y="215" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Above industry avg</text>
+  
+  <!-- Time Entries Area -->
+  <rect x="40" y="250" width="500" height="200" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="50" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1F2937">Recent Time Entries</text>
+  
+  <!-- Mock Time Entries -->
+  <rect x="50" y="290" width="480" height="30" rx="4" fill="#F8FAFC"/>
+  <circle cx="65" cy="305" r="5" fill="#10B981"/>
+  <text x="80" y="300" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#1F2937">Client meeting - Smith v. Johnson</text>
+  <text x="80" y="312" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">2.5 hours • $625</text>
+  <text x="480" y="307" font-family="Arial, sans-serif" font-size="9" fill="#059669">Approved</text>
+  
+  <rect x="50" y="330" width="480" height="30" rx="4" fill="#F8FAFC"/>
+  <circle cx="65" cy="345" r="5" fill="#F59E0B"/>
+  <text x="80" y="340" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#1F2937">Contract review - ABC Corp</text>
+  <text x="80" y="352" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">1.8 hours • $450</text>
+  <text x="470" y="347" font-family="Arial, sans-serif" font-size="9" fill="#D97706">Pending</text>
+  
+  <rect x="50" y="370" width="480" height="30" rx="4" fill="#F8FAFC"/>
+  <circle cx="65" cy="385" r="5" fill="#3B82F6"/>
+  <text x="80" y="380" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#1F2937">Research - Patent law update</text>
+  <text x="80" y="392" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">3.2 hours • $800</text>
+  <text x="475" y="387" font-family="Arial, sans-serif" font-size="9" fill="#2563EB">Invoiced</text>
+  
+  <!-- Proof Bundle Panel -->
+  <rect x="560" y="250" width="180" height="200" rx="8" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="570" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1F2937">Proof Bundles</text>
+  
+  <!-- Bundle Items -->
+  <rect x="570" y="290" width="160" height="35" rx="4" fill="#F0F9FF" stroke="#3B82F6" stroke-width="1"/>
+  <text x="580" y="305" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#1F2937">Smith v. Johnson</text>
+  <text x="580" y="318" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Screenshots, docs, time log</text>
+  <rect x="690" y="295" width="30" height="15" rx="2" fill="#3B82F6"/>
+  <text x="705" y="305" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">PDF</text>
+  
+  <rect x="570" y="335" width="160" height="35" rx="4" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1"/>
+  <text x="580" y="350" font-family="Arial, sans-serif" font-size="11" font-weight="500" fill="#1F2937">ABC Corp Contract</text>
+  <text x="580" y="363" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">Auto-captured evidence</text>
+  <rect x="690" y="340" width="30" height="15" rx="2" fill="#F59E0B"/>
+  <text x="705" y="350" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">ZIP</text>
+  
+  <!-- Footer -->
+  <text x="40" y="470" font-family="Arial, sans-serif" font-size="10" fill="#9CA3AF">Sque Legal Revenue & Operating System • Last sync: 30 seconds ago</text>
+</svg>
