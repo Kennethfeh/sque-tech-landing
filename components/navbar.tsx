@@ -6,9 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const navigation = [
   { name: 'Features', href: '#features' },
-  { name: 'Pricing', href: '#pricing' },
-  { name: 'About', href: '#about' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'Resources', href: '#resources' },
 ]
 
 export function Navbar() {
@@ -20,7 +18,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <img src="/images/sque-logo.svg" alt="Sque Tech" className="h-10" />
+              <img src="/images/sque-logo-exact.svg" alt="Sque" className="h-10" />
             </Link>
           </div>
 
@@ -34,7 +32,13 @@ export function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <button className="bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors">
+            <Link
+              href="/login"
+              className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors"
+            >
+              Login
+            </Link>
+            <button className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
               Get Started
             </button>
           </div>

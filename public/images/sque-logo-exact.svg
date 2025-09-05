@@ -1,0 +1,8 @@
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Infinity symbol logo -->
+  <path d="M8 20c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8-8-3.582-8-8z" fill="#3b82f6" opacity="0.8"/>
+  <path d="M16 20c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8-8-3.582-8-8z" fill="#3b82f6"/>
+  
+  <!-- "Sque" text -->
+  <text x="40" y="26" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937">Sque</text>
+</svg>
