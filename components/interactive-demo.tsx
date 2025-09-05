@@ -5,72 +5,76 @@ import { useState } from 'react'
 
 const demoTabs = [
   {
-    id: 'ai',
-    label: 'AI Development',
-    title: 'Deep Learning Integration',
-    description: 'Build AI-powered applications with computer vision and NLP capabilities',
-    code: `🧠 Sque AI Development Kit
+    id: 'capture',
+    label: 'Time Capture',
+    title: 'Automatic Time Tracking',
+    description: 'Watch how Sque automatically captures and categorizes your billable work',
+    code: `⏱️  Sque Time Capture Engine
 
-$ sque ai init --model vision
-✨ Creating AI model pipeline...
-🔍 Computer Vision: Ready
-🗣️  NLP Processing: Ready
-📊 Training Dataset: Loaded
+✨ Detecting work activity...
+📝 Document review: Smith v. Johnson
+🕐 Started: 2:15 PM
+📊 Categorized: Litigation
 
-🚀 Model deployed to production
-📈 Accuracy: 94.2%`,
+📧 Email analysis: Client correspondence  
+🕐 Duration: 0.5 hours
+💰 Billable: $125 @ $250/hr
+
+🔄 Auto-sync complete`,
     metrics: [
-      { label: 'Model accuracy', value: '94.2%' },
-      { label: 'Training time', value: '2.5hrs' },
-      { label: 'Inference speed', value: '<100ms' }
+      { label: 'Time recovered', value: '15+ hrs/week' },
+      { label: 'Accuracy rate', value: '96.8%' },
+      { label: 'Auto-categorization', value: '89%' }
     ]
   },
   {
-    id: 'saas',
-    label: 'SaaS Platform',
-    title: 'Full-Stack Development',
-    description: 'Create scalable SaaS applications with modern tech stack',
-    code: `⚡ Sque SaaS Generator
+    id: 'approve',
+    label: 'Proof & Approve',
+    title: 'Evidence-Based Billing',
+    description: 'Generate comprehensive proof bundles for every billable entry',
+    code: `📋 Sque Proof Bundle Generator
 
-$ sque create --template saas
-📦 React + TypeScript: ✅
-🔐 Auth & User Management: ✅
-💳 Payment Integration: ✅
-📊 Analytics Dashboard: ✅
-☁️  Cloud Infrastructure: ✅
+🔍 Collecting evidence...
+📸 Screenshots: 12 captured
+📎 Documents: 5 accessed
+📧 Email thread: 8 messages
+⏰ Time stamps: Verified
 
-🌐 https://your-saas.live`,
+📦 Bundle created: Smith_v_Johnson_2024.zip
+💾 Size: 15.2 MB
+🔐 Encrypted & ready for client`,
     metrics: [
-      { label: 'Development time', value: '8 weeks' },
-      { label: 'Components', value: '50+' },
-      { label: 'Performance score', value: '98/100' }
+      { label: 'Dispute reduction', value: '87%' },
+      { label: 'Bundle generation', value: '<30 sec' },
+      { label: 'Client satisfaction', value: '4.9/5' }
     ]
   },
   {
-    id: 'mobile',
-    label: 'Mobile Apps',
-    title: 'Cross-Platform Development',
-    description: 'Build native iOS and Android apps with shared codebase',
-    code: `📱 Sque Mobile Development
+    id: 'invoice',
+    label: 'Invoice & Collect',
+    title: 'Automated Billing',
+    description: 'Convert approved time into invoices and accelerate collection',
+    code: `💸 Sque Billing Engine
 
-🔨 Building for iOS & Android...
-⚛️  React Native: Optimized
-🔄 State Management: Redux Toolkit
-🎨 UI Components: Native Base
-🔗 API Integration: Complete
+⚙️  Processing approved entries...
+📄 Invoice #2024-0156 created
+💰 Amount: $4,250.00
+📧 Auto-sent to client portal
+📅 Due date: 30 days
 
-📲 Apps ready for App Stores
-⭐ Performance: Native-level`,
+🔔 Payment reminder scheduled
+📊 Collection probability: 94%
+💳 Online payment link included`,
     metrics: [
-      { label: 'Code sharing', value: '85%' },
-      { label: 'App store rating', value: '4.8/5' },
-      { label: 'Load time', value: '<2s' }
+      { label: 'Collection rate', value: '94%' },
+      { label: 'Payment time', value: '18 days avg' },
+      { label: 'Admin time saved', value: '5 hrs/week' }
     ]
   }
 ]
 
 export function InteractiveDemo() {
-  const [activeTab, setActiveTab] = useState('ai')
+  const [activeTab, setActiveTab] = useState('capture')
   const currentDemo = demoTabs.find(tab => tab.id === activeTab) || demoTabs[0]
 
   return (
@@ -84,10 +88,10 @@ export function InteractiveDemo() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            See Sque Tech in action
+            See Sque in action
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Experience our development process for AI, SaaS, and mobile applications that businesses trust for digital transformation.
+            Experience the complete legal revenue workflow from automatic time capture to fast payment collection.
           </p>
         </motion.div>
 

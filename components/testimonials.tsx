@@ -4,22 +4,22 @@ import { motion } from 'framer-motion'
 
 const testimonials = [
   {
-    name: 'David Park',
-    role: 'CEO at FinanceFlow',
-    image: 'D',
-    quote: 'Sque Tech developed our AI-powered financial analytics platform in just 3 months. Their deep learning expertise transformed our business intelligence capabilities.',
+    name: 'Sarah Williams',
+    role: 'Partner at Morrison & Associates',
+    image: 'S',
+    quote: 'Sque has recovered 15+ hours of unbilled time per week for our firm. The automatic proof bundles make client billing disputes a thing of the past.',
   },
   {
-    name: 'Lisa Thompson',
-    role: 'Product Manager at HealthTech Pro',
-    image: 'L',
-    quote: 'The mobile app and SaaS platform Sque Tech built for us exceeded expectations. Their attention to UI/UX detail and rapid deployment process was impressive.',
+    name: 'Michael Chen',
+    role: 'Solo Practitioner, Corporate Law',
+    image: 'M',
+    quote: 'Since using Sque, my collection rate improved from 78% to 94%. The automated billing system eliminates the administrative overhead I used to hate.',
   },
   {
-    name: 'Ahmed Hassan',
-    role: 'Founder of RetailAI',
-    image: 'A',
-    quote: 'Working with Sque Tech was seamless. They integrated computer vision and NLP into our e-commerce platform, boosting customer engagement by 40%.',
+    name: 'Jennifer Martinez',
+    role: 'Managing Partner at Legal Innovations LLP',
+    image: 'J',
+    quote: 'Sque transformed how our 25-attorney firm handles time tracking. We\'ve increased billable hour capture by 22% and reduced billing cycles by 50%.',
   },
 ]
 
@@ -35,10 +35,10 @@ export function Testimonials() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Trusted by innovative companies
+            Trusted by legal professionals
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            See what our clients are saying about their digital transformation journey with Sque Tech.
+            See how law firms are maximizing their revenue and efficiency with Sque's legal operating system.
           </p>
         </motion.div>
 
