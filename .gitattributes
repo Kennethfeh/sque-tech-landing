@@ -1,0 +1,6 @@
+# Git attributes for better repository management
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.jsx linguist-language=JavaScript
+*.css linguist-language=CSS
