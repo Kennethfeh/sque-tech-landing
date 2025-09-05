@@ -19,7 +19,7 @@ const testimonials = [
     name: 'Jennifer Martinez',
     role: 'Managing Partner at Legal Innovations LLP',
     image: 'J',
-    quote: 'Sque transformed how our 25-attorney firm handles time tracking. We\'ve increased billable hour capture by 22% and reduced billing cycles by 50%.',
+    quote: 'Sque transformed how our 25-attorney firm handles time tracking. We&apos;ve increased billable hour capture by 22% and reduced billing cycles by 50%.',
   },
 ]
 
@@ -38,7 +38,7 @@ export function Testimonials() {
             Trusted by legal professionals
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            See how law firms are maximizing their revenue and efficiency with Sque's legal operating system.
+            See how law firms are maximizing their revenue and efficiency with Sque&apos;s legal operating system.
           </p>
         </motion.div>
 
